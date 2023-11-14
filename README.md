@@ -1,8 +1,8 @@
-# Work-Day-Scheduler
+# Workday Scheduler
 A web based application designed to add events to a work day.
 
 ## Description
-This application is designed to allow a user to add any events to any block of time in a given day. Functionally it is intended to give the user visual context for each event as to when the added event will take place (past, present, or future). If the user refreshes the page before they are finished utilizing the daily planner, the added events should remain exactly at the time chosen. This should give the user a very helpful tool in planning their work day with the best use of their time.
+This application is designed to allow a user to add any events to any block of time in a given day. Functionally it is intended to give the user visual context for each event as to when the added event will take place (past, present, or future). If the user refreshes the page before they are finished utilizing the daily planner, the added events should remain exactly at the time chosen when added initially. This should give the user a very helpful tool in planning their work day with the best use of their time.
 
 ## Authors and Credits
 original source code by <a href="https://github.com/coding-boot-camp/crispy-octo-meme">crispy-octo-meme</a> as provided by coding-boot-camp materials
