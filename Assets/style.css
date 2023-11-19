@@ -7,7 +7,7 @@ body {
     background: transparent;
     border: 1px dashed;
     resize: none;
-    color: #5e5a5a;
+    color: #090808;
     border-left: 1px solid black;
     padding: 10px;
   }
@@ -32,17 +32,17 @@ body {
   
   .past {
     background-color: #723a5b;
-    color: white;
+    color: black;
   }
   
   .present {
     background-color: #cd94e3;
-    color: white;
+    color: black;
   }
   
   .future {
     background-color: #f6c3f6;
-    color: white;
+    color: black;
   }
   
   .saveBtn {
