@@ -40,15 +40,15 @@ $(document).ready(function retrieveScheduleItem(){
     }
 });
 
-// adds event listener to the save button
-// saves input to local storage by the hour as a string 
+
 // uses Jquery to run the function on a click 
-// uses targeting to ensure the save button is clicked in order to save
 $(document).on('click', function saveScheduleItem(event){
+    // uses targeting to make sure the save button is clicked
     if ($(event.target).hasClass('saveBtn')){
         var scheduleContainer = $(event.target).closest('.time-block');
         var scheduleItem = scheduleContainer.find('.description').val();
         var scheduleId = scheduleContainer.attr('id');
+        // saves user information as a string
         localStorage.setItem(scheduleId, JSON.stringify({scheduleItem}));
         console.log(scheduleId, scheduleItem);
     }
@@ -58,5 +58,3 @@ $(document).on('click', function saveScheduleItem(event){
 displayCurrentDay();
 // displays current day/time every second
 setInterval(displayCurrentDay, 1000);
-// runs the update of current time to affect each timeblock accordingly
-// window.onload = timeblockUpdate();
