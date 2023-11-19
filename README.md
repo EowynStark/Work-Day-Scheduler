@@ -13,7 +13,7 @@ source file edits, JavaScript content, and code formatting by <a href="https://g
 Version 1.0 created on Nov. 14, 2023
 
 ## Mock-Up
-<a href="#">link to page</a>
+<a href="https://eowynstark.github.io/Work-Day-Scheduler/">link to page</a>
 <img src="/Assets/127.0.0.1_5500_index.html.png">
 
 ## License
